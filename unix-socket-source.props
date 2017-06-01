@@ -1,0 +1,6 @@
+name=unix-socket-source
+connector.class=uk.ac.cam.cl.cadets.UnixSocketSourceConnector
+task.max=1
+topics=ddtrace-query-response
+batch.size=5
+pathname=ddtrace.sock
