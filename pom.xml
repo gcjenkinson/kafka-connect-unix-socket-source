@@ -6,7 +6,7 @@
 	<groupId>cadets.cl.cam.ac.uk</groupId>
 	<version>0.0.1</version>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>unix-socket-kafka-source</artifactId>
+	<artifactId>kafka-connect-unix-socket-source</artifactId>
 	<packaging>jar</packaging>
 
 	<build>
