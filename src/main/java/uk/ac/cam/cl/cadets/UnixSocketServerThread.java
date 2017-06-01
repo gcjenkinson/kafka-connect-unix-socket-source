@@ -88,6 +88,8 @@ class UnixSocketServerThread implements Runnable {
             } catch (IOException e) {
                 LOGGER.error("Error calling accept on serverSocket {}",
                     e.getMessage());
+                throw new ConnectException(
+                    "Error calling accept on serverSocket", e);
             }
         }
     }
